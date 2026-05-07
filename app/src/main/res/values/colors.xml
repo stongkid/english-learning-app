@@ -1,0 +1,26 @@
+
+<resources>
+    <color name="primary">#1E88E5</color>
+    <color name="primaryVariant">#1565C0</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="secondary">#43A047</color>
+    <color name="secondaryVariant">#2E7D32</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="background">#FAFAFA</color>
+    <color name="onBackground">#333333</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#333333</color>
+    <color name="error">#E53935</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="accent">#FB8C00</color>
+    <color name="textPrimary">#333333</color>
+    <color name="textSecondary">#999999</color>
+    <color name="border">#EEEEEE</color>
+    <color name="highlight">#E3F2FD</color>
+    <color name="success">#43A047</color>
+    <color name="warning">#FB8C00</color>
+    <color name="darkBackground">#121212</color>
+    <color name="darkSurface">#1E1E1E</color>
+    <color name="darkOnBackground">#FFFFFF</color>
+    <color name="darkOnSurface">#FFFFFF</color>
+</resources>

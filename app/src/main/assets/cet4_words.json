@@ -1,0 +1,1581 @@
+
+{
+  "words": [
+    {
+      "word": "abandon",
+      "phonetic": "/əˈbændən/",
+      "meaning": "v. 放弃；抛弃；遗弃",
+      "part_of_speech": "verb",
+      "example": "He had to abandon his plan.",
+      "level": 1
+    },
+    {
+      "word": "ability",
+      "phonetic": "/əˈbɪləti/",
+      "meaning": "n. 能力；才能；技能",
+      "part_of_speech": "noun",
+      "example": "She has the ability to learn quickly.",
+      "level": 1
+    },
+    {
+      "word": "able",
+      "phonetic": "/ˈeɪbl/",
+      "meaning": "adj. 能够的；有能力的",
+      "part_of_speech": "adjective",
+      "example": "I am able to finish this task.",
+      "level": 1
+    },
+    {
+      "word": "abnormal",
+      "phonetic": "/æbˈnɔːrml/",
+      "meaning": "adj. 异常的；反常的；不规则的",
+      "part_of_speech": "adjective",
+      "example": "The test showed abnormal results.",
+      "level": 2
+    },
+    {
+      "word": "aboard",
+      "phonetic": "/əˈbɔːrd/",
+      "meaning": "adv./prep. 在船上；在飞机上；上车",
+      "part_of_speech": "adverb/preposition",
+      "example": "All aboard! The train is leaving.",
+      "level": 2
+    },
+    {
+      "word": "about",
+      "phonetic": "/əˈbaʊt/",
+      "meaning": "prep. 关于；大约 adv. 大约；到处",
+      "part_of_speech": "preposition/adverb",
+      "example": "Tell me about your trip.",
+      "level": 1
+    },
+    {
+      "word": "above",
+      "phonetic": "/əˈbʌv/",
+      "meaning": "prep. 在...上面；超过 adv. 在上面",
+      "part_of_speech": "preposition/adverb",
+      "example": "The sun rose above the horizon.",
+      "level": 1
+    },
+    {
+      "word": "abroad",
+      "phonetic": "/əˈbrɔːd/",
+      "meaning": "adv. 在国外；到国外",
+      "part_of_speech": "adverb",
+      "example": "She studied abroad for a year.",
+      "level": 2
+    },
+    {
+      "word": "absence",
+      "phonetic": "/ˈæbsəns/",
+      "meaning": "n. 缺席；不在；缺乏",
+      "part_of_speech": "noun",
+      "example": "His absence was noticed by everyone.",
+      "level": 2
+    },
+    {
+      "word": "absolute",
+      "phonetic": "/ˈæbsəluːt/",
+      "meaning": "adj. 绝对的；完全的；无条件的",
+      "part_of_speech": "adjective",
+      "example": "You have my absolute support.",
+      "level": 2
+    },
+    {
+      "word": "absorb",
+      "phonetic": "/əbˈsɔːrb/",
+      "meaning": "v. 吸收；吸引；理解",
+      "part_of_speech": "verb",
+      "example": "Plants absorb carbon dioxide.",
+      "level": 2
+    },
+    {
+      "word": "abstract",
+      "phonetic": "/ˈæbstrækt/",
+      "meaning": "adj. 抽象的 n. 摘要；抽象",
+      "part_of_speech": "adjective/noun",
+      "example": "This is an abstract concept.",
+      "level": 3
+    },
+    {
+      "word": "academic",
+      "phonetic": "/ˌækəˈdemɪk/",
+      "meaning": "adj. 学术的；理论的 n. 学者",
+      "part_of_speech": "adjective/noun",
+      "example": "She has excellent academic records.",
+      "level": 2
+    },
+    {
+      "word": "accept",
+      "phonetic": "/əkˈsept/",
+      "meaning": "v. 接受；认可；同意",
+      "part_of_speech": "verb",
+      "example": "I accept your invitation.",
+      "level": 1
+    },
+    {
+      "word": "access",
+      "phonetic": "/ˈækses/",
+      "meaning": "n. 通道；入口；访问 v. 访问；进入",
+      "part_of_speech": "noun/verb",
+      "example": "You need a key to access the building.",
+      "level": 2
+    },
+    {
+      "word": "accident",
+      "phonetic": "/ˈæksɪdənt/",
+      "meaning": "n. 事故；意外事件",
+      "part_of_speech": "noun",
+      "example": "There was a car accident on the highway.",
+      "level": 1
+    },
+    {
+      "word": "accompany",
+      "phonetic": "/əˈkʌmpəni/",
+      "meaning": "v. 陪伴；伴随；伴奏",
+      "part_of_speech": "verb",
+      "example": "She accompanied him to the meeting.",
+      "level": 2
+    },
+    {
+      "word": "accomplish",
+      "phonetic": "/əˈkɑːmplɪʃ/",
+      "meaning": "v. 完成；实现；达到",
+      "part_of_speech": "verb",
+      "example": "We accomplished our goal.",
+      "level": 2
+    },
+    {
+      "word": "according",
+      "phonetic": "/əˈkɔːrdɪŋ/",
+      "meaning": "prep. 根据；按照",
+      "part_of_speech": "preposition",
+      "example": "According to the report, sales increased.",
+      "level": 1
+    },
+    {
+      "word": "account",
+      "phonetic": "/əˈkaʊnt/",
+      "meaning": "n. 账户；账目；描述 v. 解释",
+      "part_of_speech": "noun/verb",
+      "example": "I opened a bank account.",
+      "level": 1
+    },
+    {
+      "word": "accurate",
+      "phonetic": "/ˈækjərət/",
+      "meaning": "adj. 准确的；精确的",
+      "part_of_speech": "adjective",
+      "example": "Please provide accurate information.",
+      "level": 2
+    },
+    {
+      "word": "achieve",
+      "phonetic": "/əˈtʃiːv/",
+      "meaning": "v. 实现；达到；获得",
+      "part_of_speech": "verb",
+      "example": "She achieved her dream of becoming a doctor.",
+      "level": 2
+    },
+    {
+      "word": "achievement",
+      "phonetic": "/əˈtʃiːvmənt/",
+      "meaning": "n. 成就；成绩；完成",
+      "part_of_speech": "noun",
+      "example": "This is a great achievement.",
+      "level": 2
+    },
+    {
+      "word": "acid",
+      "phonetic": "/ˈæsɪd/",
+      "meaning": "n. 酸 adj. 酸的；尖酸的",
+      "part_of_speech": "noun/adjective",
+      "example": "Lemon juice contains citric acid.",
+      "level": 2
+    },
+    {
+      "word": "acquire",
+      "phonetic": "/əˈkwaɪər/",
+      "meaning": "v. 获得；取得；学到",
+      "part_of_speech": "verb",
+      "example": "She acquired a new skill.",
+      "level": 2
+    },
+    {
+      "word": "across",
+      "phonetic": "/əˈkrɔːs/",
+      "meaning": "prep./adv. 穿过；横过",
+      "part_of_speech": "preposition/adverb",
+      "example": "Walk across the street.",
+      "level": 1
+    },
+    {
+      "word": "action",
+      "phonetic": "/ˈækʃn/",
+      "meaning": "n. 行动；动作；作用",
+      "part_of_speech": "noun",
+      "example": "Actions speak louder than words.",
+      "level": 1
+    },
+    {
+      "word": "active",
+      "phonetic": "/ˈæktɪv/",
+      "meaning": "adj. 活跃的；积极的；主动的",
+      "part_of_speech": "adjective",
+      "example": "She leads an active lifestyle.",
+      "level": 1
+    },
+    {
+      "word": "activity",
+      "phonetic": "/ækˈtɪvəti/",
+      "meaning": "n. 活动；活跃；行动",
+      "part_of_speech": "noun",
+      "example": "There are many activities at the camp.",
+      "level": 1
+    },
+    {
+      "word": "actor",
+      "phonetic": "/ˈæktər/",
+      "meaning": "n. 演员；行动者",
+      "part_of_speech": "noun",
+      "example": "He is a famous actor.",
+      "level": 1
+    },
+    {
+      "word": "adapt",
+      "phonetic": "/əˈdæpt/",
+      "meaning": "v. 适应；改编；调整",
+      "part_of_speech": "verb",
+      "example": "We need to adapt to the new situation.",
+      "level": 2
+    },
+    {
+      "word": "add",
+      "phonetic": "/æd/",
+      "meaning": "v. 添加；增加；加",
+      "part_of_speech": "verb",
+      "example": "Add two cups of water.",
+      "level": 1
+    },
+    {
+      "word": "addition",
+      "phonetic": "/əˈdɪʃn/",
+      "meaning": "n. 添加；加法；附加物",
+      "part_of_speech": "noun",
+      "example": "In addition, we need more time.",
+      "level": 1
+    },
+    {
+      "word": "address",
+      "phonetic": "/əˈdres/",
+      "meaning": "n. 地址；演讲 v. 演讲；处理",
+      "part_of_speech": "noun/verb",
+      "example": "Please write your address here.",
+      "level": 1
+    },
+    {
+      "word": "adequate",
+      "phonetic": "/ˈædɪkwət/",
+      "meaning": "adj. 足够的；充分的；适当的",
+      "part_of_speech": "adjective",
+      "example": "We have adequate resources.",
+      "level": 2
+    },
+    {
+      "word": "adjust",
+      "phonetic": "/əˈdʒʌst/",
+      "meaning": "v. 调整；调节；适应",
+      "part_of_speech": "verb",
+      "example": "Adjust the volume to your liking.",
+      "level": 2
+    },
+    {
+      "word": "administration",
+      "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
+      "meaning": "n. 管理；行政；政府",
+      "part_of_speech": "noun",
+      "example": "The administration announced new policies.",
+      "level": 3
+    },
+    {
+      "word": "admire",
+      "phonetic": "/ədˈmaɪər/",
+      "meaning": "v. 钦佩；赞美；羡慕",
+      "part_of_speech": "verb",
+      "example": "I admire your work.",
+      "level": 2
+    },
+    {
+      "word": "admit",
+      "phonetic": "/ədˈmɪt/",
+      "meaning": "v. 承认；允许进入；接纳",
+      "part_of_speech": "verb",
+      "example": "He admitted his mistake.",
+      "level": 2
+    },
+    {
+      "word": "adopt",
+      "phonetic": "/əˈdɒpt/",
+      "meaning": "v. 采用；收养；采纳",
+      "part_of_speech": "verb",
+      "example": "The company adopted new policies.",
+      "level": 2
+    },
+    {
+      "word": "advance",
+      "phonetic": "/ədˈvɑːns/",
+      "meaning": "v./n. 前进；推进；进展",
+      "part_of_speech": "verb/noun",
+      "example": "We need to advance to the next level.",
+      "level": 2
+    },
+    {
+      "word": "advanced",
+      "phonetic": "/ədˈvɑːnst/",
+      "meaning": "adj. 高级的；先进的；晚期的",
+      "part_of_speech": "adjective",
+      "example": "She took an advanced course.",
+      "level": 2
+    },
+    {
+      "word": "advantage",
+      "phonetic": "/ədˈvɑːntɪdʒ/",
+      "meaning": "n. 优势；有利条件；利益",
+      "part_of_speech": "noun",
+      "example": "This gives us an advantage.",
+      "level": 2
+    },
+    {
+      "word": "adventure",
+      "phonetic": "/ədˈventʃər/",
+      "meaning": "n. 冒险；冒险经历",
+      "part_of_speech": "noun",
+      "example": "It was a great adventure.",
+      "level": 2
+    },
+    {
+      "word": "advertise",
+      "phonetic": "/ˈædvərtaɪz/",
+      "meaning": "v. 做广告；宣传；公布",
+      "part_of_speech": "verb",
+      "example": "They advertise their products online.",
+      "level": 2
+    },
+    {
+      "word": "advice",
+      "phonetic": "/ədˈvaɪs/",
+      "meaning": "n. 建议；忠告；意见",
+      "part_of_speech": "noun",
+      "example": "Can you give me some advice?",
+      "level": 1
+    },
+    {
+      "word": "advise",
+      "phonetic": "/ədˈvaɪz/",
+      "meaning": "v. 建议；劝告；通知",
+      "part_of_speech": "verb",
+      "example": "I advise you to be careful.",
+      "level": 2
+    },
+    {
+      "word": "affair",
+      "phonetic": "/əˈfeər/",
+      "meaning": "n. 事务；事情；事件",
+      "part_of_speech": "noun",
+      "example": "This is a private affair.",
+      "level": 2
+    },
+    {
+      "word": "affect",
+      "phonetic": "/əˈfekt/",
+      "meaning": "v. 影响；感动；假装",
+      "part_of_speech": "verb",
+      "example": "The weather affects our plans.",
+      "level": 2
+    },
+    {
+      "word": "afford",
+      "phonetic": "/əˈfɔːrd/",
+      "meaning": "v. 负担得起；提供；给予",
+      "part_of_speech": "verb",
+      "example": "I can't afford that car.",
+      "level": 2
+    },
+    {
+      "word": "afraid",
+      "phonetic": "/əˈfreɪd/",
+      "meaning": "adj. 害怕的；担心的",
+      "part_of_speech": "adjective",
+      "example": "Don't be afraid to ask questions.",
+      "level": 1
+    },
+    {
+      "word": "after",
+      "phonetic": "/ˈɑːftər/",
+      "meaning": "prep./conj./adv. 在...之后",
+      "part_of_speech": "preposition/conjunction/adverb",
+      "example": "I'll see you after class.",
+      "level": 1
+    },
+    {
+      "word": "afternoon",
+      "phonetic": "/ˌɑːftərˈnuːn/",
+      "meaning": "n. 下午",
+      "part_of_speech": "noun",
+      "example": "Let's meet in the afternoon.",
+      "level": 1
+    },
+    {
+      "word": "again",
+      "phonetic": "/əˈɡen/",
+      "meaning": "adv. 再次；又；此外",
+      "part_of_speech": "adverb",
+      "example": "Try again.",
+      "level": 1
+    },
+    {
+      "word": "against",
+      "phonetic": "/əˈɡenst/",
+      "meaning": "prep. 反对；违反；靠着",
+      "part_of_speech": "preposition",
+      "example": "He is against the proposal.",
+      "level": 1
+    },
+    {
+      "word": "age",
+      "phonetic": "/eɪdʒ/",
+      "meaning": "n. 年龄；时代 v. 变老",
+      "part_of_speech": "noun/verb",
+      "example": "What is your age?",
+      "level": 1
+    },
+    {
+      "word": "agency",
+      "phonetic": "/ˈeɪdʒənsi/",
+      "meaning": "n. 机构；代理；中介",
+      "part_of_speech": "noun",
+      "example": "She works for a travel agency.",
+      "level": 2
+    },
+    {
+      "word": "agent",
+      "phonetic": "/ˈeɪdʒənt/",
+      "meaning": "n. 代理人；特工；代理商",
+      "part_of_speech": "noun",
+      "example": "He is a real estate agent.",
+      "level": 2
+    },
+    {
+      "word": "ago",
+      "phonetic": "/əˈɡoʊ/",
+      "meaning": "adv. 以前；以往",
+      "part_of_speech": "adverb",
+      "example": "I met him three years ago.",
+      "level": 1
+    },
+    {
+      "word": "agree",
+      "phonetic": "/əˈɡriː/",
+      "meaning": "v. 同意；赞成；一致",
+      "part_of_speech": "verb",
+      "example": "I agree with you.",
+      "level": 1
+    },
+    {
+      "word": "agreement",
+      "phonetic": "/əˈɡriːmənt/",
+      "meaning": "n. 协议；同意；一致",
+      "part_of_speech": "noun",
+      "example": "We reached an agreement.",
+      "level": 2
+    },
+    {
+      "word": "ahead",
+      "phonetic": "/əˈhed/",
+      "meaning": "adv. 向前；在前；提前",
+      "part_of_speech": "adverb",
+      "example": "Go straight ahead.",
+      "level": 1
+    },
+    {
+      "word": "aid",
+      "phonetic": "/eɪd/",
+      "meaning": "n. 援助；帮助 v. 帮助；援助",
+      "part_of_speech": "noun/verb",
+      "example": "They provided aid to the victims.",
+      "level": 2
+    },
+    {
+      "word": "aim",
+      "phonetic": "/eɪm/",
+      "meaning": "n. 目标；目的 v. 瞄准；旨在",
+      "part_of_speech": "noun/verb",
+      "example": "Our aim is to finish by Friday.",
+      "level": 2
+    },
+    {
+      "word": "air",
+      "phonetic": "/eər/",
+      "meaning": "n. 空气；天空 v. 播出；通风",
+      "part_of_speech": "noun/verb",
+      "example": "The air is fresh today.",
+      "level": 1
+    },
+    {
+      "word": "aircraft",
+      "phonetic": "/ˈeəkrɑːft/",
+      "meaning": "n. 飞机；航空器",
+      "part_of_speech": "noun",
+      "example": "The aircraft took off on time.",
+      "level": 2
+    },
+    {
+      "word": "airline",
+      "phonetic": "/ˈeərlaɪn/",
+      "meaning": "n. 航空公司",
+      "part_of_speech": "noun",
+      "example": "Which airline do you prefer?",
+      "level": 2
+    },
+    {
+      "word": "airport",
+      "phonetic": "/ˈeərpɔːrt/",
+      "meaning": "n. 机场；航空港",
+      "part_of_speech": "noun",
+      "example": "We arrived at the airport early.",
+      "level": 1
+    },
+    {
+      "word": "alarm",
+      "phonetic": "/əˈlɑːrm/",
+      "meaning": "n. 警报；闹钟 v. 警告；使惊恐",
+      "part_of_speech": "noun/verb",
+      "example": "The alarm went off at 7 AM.",
+      "level": 2
+    },
+    {
+      "word": "album",
+      "phonetic": "/ˈælbəm/",
+      "meaning": "n. 相册；唱片；集邮册",
+      "part_of_speech": "noun",
+      "example": "She showed me her photo album.",
+      "level": 2
+    },
+    {
+      "word": "alcohol",
+      "phonetic": "/ˈælkəhɔːl/",
+      "meaning": "n. 酒精；酒",
+      "part_of_speech": "noun",
+      "example": "Drinking alcohol can be dangerous.",
+      "level": 2
+    },
+    {
+      "word": "alert",
+      "phonetic": "/əˈlɜːrt/",
+      "meaning": "adj. 警觉的 n. 警报 v. 提醒",
+      "part_of_speech": "adjective/noun/verb",
+      "example": "Stay alert at all times.",
+      "level": 2
+    },
+    {
+      "word": "alien",
+      "phonetic": "/ˈeɪliən/",
+      "meaning": "adj. 外国的；陌生的 n. 外星人",
+      "part_of_speech": "adjective/noun",
+      "example": "He felt alien in this new place.",
+      "level": 2
+    },
+    {
+      "word": "all",
+      "phonetic": "/ɔːl/",
+      "meaning": "adj./pron./adv. 全部；所有",
+      "part_of_speech": "adjective/pronoun/adverb",
+      "example": "All students must attend.",
+      "level": 1
+    },
+    {
+      "word": "allow",
+      "phonetic": "/əˈlaʊ/",
+      "meaning": "v. 允许；准许；容许",
+      "part_of_speech": "verb",
+      "example": "Smoking is not allowed here.",
+      "level": 1
+    },
+    {
+      "word": "almost",
+      "phonetic": "/ˈɔːlmoʊst/",
+      "meaning": "adv. 几乎；差不多",
+      "part_of_speech": "adverb",
+      "example": "It's almost time to leave.",
+      "level": 1
+    },
+    {
+      "word": "alone",
+      "phonetic": "/əˈloʊn/",
+      "meaning": "adj./adv. 单独的；独自地",
+      "part_of_speech": "adjective/adverb",
+      "example": "She lives alone.",
+      "level": 1
+    },
+    {
+      "word": "along",
+      "phonetic": "/əˈlɔːŋ/",
+      "meaning": "prep./adv. 沿着；一起",
+      "part_of_speech": "preposition/adverb",
+      "example": "Walk along this street.",
+      "level": 1
+    },
+    {
+      "word": "aloud",
+      "phonetic": "/əˈlaʊd/",
+      "meaning": "adv. 大声地；出声地",
+      "part_of_speech": "adverb",
+      "example": "Read the text aloud.",
+      "level": 2
+    },
+    {
+      "word": "alphabet",
+      "phonetic": "/ˈælfəbet/",
+      "meaning": "n. 字母表；字母",
+      "part_of_speech": "noun",
+      "example": "Learn the alphabet first.",
+      "level": 1
+    },
+    {
+      "word": "already",
+      "phonetic": "/ɔːlˈredi/",
+      "meaning": "adv. 已经；早已",
+      "part_of_speech": "adverb",
+      "example": "I've already finished.",
+      "level": 1
+    },
+    {
+      "word": "also",
+      "phonetic": "/ˈɔːlsoʊ/",
+      "meaning": "adv. 也；同样；而且",
+      "part_of_speech": "adverb",
+      "example": "I also like coffee.",
+      "level": 1
+    },
+    {
+      "word": "alternative",
+      "phonetic": "/ɔːlˈtɜːrnətɪv/",
+      "meaning": "adj. 替代的 n. 替代方案",
+      "part_of_speech": "adjective/noun",
+      "example": "We have an alternative plan.",
+      "level": 2
+    },
+    {
+      "word": "although",
+      "phonetic": "/ɔːlˈðoʊ/",
+      "meaning": "conj. 虽然；尽管",
+      "part_of_speech": "conjunction",
+      "example": "Although it rained, we went out.",
+      "level": 1
+    },
+    {
+      "word": "altogether",
+      "phonetic": "/ˌɔːltəˈɡeðər/",
+      "meaning": "adv. 完全；总共；总之",
+      "part_of_speech": "adverb",
+      "example": "That's altogether different.",
+      "level": 2
+    },
+    {
+      "word": "always",
+      "phonetic": "/ˈɔːlweɪz/",
+      "meaning": "adv. 总是；始终；永远",
+      "part_of_speech": "adverb",
+      "example": "She always arrives early.",
+      "level": 1
+    },
+    {
+      "word": "amateur",
+      "phonetic": "/ˈæmətər/",
+      "meaning": "adj./n. 业余的；业余爱好者",
+      "part_of_speech": "adjective/noun",
+      "example": "He is an amateur photographer.",
+      "level": 2
+    },
+    {
+      "word": "amazing",
+      "phonetic": "/əˈmeɪzɪŋ/",
+      "meaning": "adj. 令人惊奇的；惊人的",
+      "part_of_speech": "adjective",
+      "example": "What an amazing performance!",
+      "level": 2
+    },
+    {
+      "word": "ambition",
+      "phonetic": "/æmˈbɪʃn/",
+      "meaning": "n. 野心；抱负；志向",
+      "part_of_speech": "noun",
+      "example": "He has great ambition.",
+      "level": 2
+    },
+    {
+      "word": "ambulance",
+      "phonetic": "/ˈæmbjələns/",
+      "meaning": "n. 救护车",
+      "part_of_speech": "noun",
+      "example": "Call an ambulance!",
+      "level": 2
+    },
+    {
+      "word": "among",
+      "phonetic": "/əˈmʌŋ/",
+      "meaning": "prep. 在...之中；在...之间",
+      "part_of_speech": "preposition",
+      "example": "She is popular among students.",
+      "level": 1
+    },
+    {
+      "word": "amount",
+      "phonetic": "/əˈmaʊnt/",
+      "meaning": "n. 数量；总额 v. 总计",
+      "part_of_speech": "noun/verb",
+      "example": "A large amount of money was spent.",
+      "level": 2
+    },
+    {
+      "word": "analyse",
+      "phonetic": "/ˈænəlaɪz/",
+      "meaning": "v. 分析；解析；研究",
+      "part_of_speech": "verb",
+      "example": "We need to analyse the data.",
+      "level": 2
+    },
+    {
+      "word": "analysis",
+      "phonetic": "/əˈnæləsɪs/",
+      "meaning": "n. 分析；解析；研究",
+      "part_of_speech": "noun",
+      "example": "The analysis shows interesting results.",
+      "level": 2
+    },
+    {
+      "word": "ancestor",
+      "phonetic": "/ˈænsestər/",
+      "meaning": "n. 祖先；祖宗",
+      "part_of_speech": "noun",
+      "example": "Our ancestors came from Europe.",
+      "level": 2
+    },
+    {
+      "word": "ancient",
+      "phonetic": "/ˈeɪnʃənt/",
+      "meaning": "adj. 古代的；古老的",
+      "part_of_speech": "adjective",
+      "example": "This is an ancient building.",
+      "level": 2
+    },
+    {
+      "word": "and",
+      "phonetic": "/ænd/",
+      "meaning": "conj. 和；与；以及",
+      "part_of_speech": "conjunction",
+      "example": "You and me.",
+      "level": 1
+    },
+    {
+      "word": "anger",
+      "phonetic": "/ˈæŋɡər/",
+      "meaning": "n. 愤怒；怒气 v. 使发怒",
+      "part_of_speech": "noun/verb",
+      "example": "He tried to control his anger.",
+      "level": 2
+    },
+    {
+      "word": "angle",
+      "phonetic": "/ˈæŋɡl/",
+      "meaning": "n. 角度；角 v. 钓鱼；谋取",
+      "part_of_speech": "noun/verb",
+      "example": "The angle is 90 degrees.",
+      "level": 2
+    },
+    {
+      "word": "angry",
+      "phonetic": "/ˈæŋɡri/",
+      "meaning": "adj. 生气的；愤怒的",
+      "part_of_speech": "adjective",
+      "example": "Don't be angry with me.",
+      "level": 1
+    },
+    {
+      "word": "animal",
+      "phonetic": "/ˈænɪml/",
+      "meaning": "n. 动物",
+      "part_of_speech": "noun",
+      "example": "The zoo has many animals.",
+      "level": 1
+    },
+    {
+      "word": "announce",
+      "phonetic": "/əˈnaʊns/",
+      "meaning": "v. 宣布；宣告；通知",
+      "part_of_speech": "verb",
+      "example": "They announced the winner.",
+      "level": 2
+    },
+    {
+      "word": "announcement",
+      "phonetic": "/əˈnaʊnsmənt/",
+      "meaning": "n. 公告；宣布；通知",
+      "part_of_speech": "noun",
+      "example": "Listen to this important announcement.",
+      "level": 2
+    },
+    {
+      "word": "annual",
+      "phonetic": "/ˈænjuəl/",
+      "meaning": "adj. 年度的；每年的",
+      "part_of_speech": "adjective",
+      "example": "We have an annual meeting.",
+      "level": 2
+    },
+    {
+      "word": "another",
+      "phonetic": "/əˈnʌðər/",
+      "meaning": "adj./pron. 另一个；再一个",
+      "part_of_speech": "adjective/pronoun",
+      "example": "I need another book.",
+      "level": 1
+    },
+    {
+      "word": "answer",
+      "phonetic": "/ˈɑːnsər/",
+      "meaning": "n. 答案；回答 v. 回答；响应",
+      "part_of_speech": "noun/verb",
+      "example": "Can you answer this question?",
+      "level": 1
+    },
+    {
+      "word": "anxiety",
+      "phonetic": "/æŋˈzaɪəti/",
+      "meaning": "n. 焦虑；忧虑；不安",
+      "part_of_speech": "noun",
+      "example": "She felt anxiety before the exam.",
+      "level": 2
+    },
+    {
+      "word": "anxious",
+      "phonetic": "/ˈæŋkʃəs/",
+      "meaning": "adj. 焦虑的；渴望的",
+      "part_of_speech": "adjective",
+      "example": "He is anxious to start.",
+      "level": 2
+    },
+    {
+      "word": "any",
+      "phonetic": "/ˈeni/",
+      "meaning": "adj./pron. 任何；一些",
+      "part_of_speech": "adjective/pronoun",
+      "example": "Do you have any questions?",
+      "level": 1
+    },
+    {
+      "word": "anybody",
+      "phonetic": "/ˈenibʌdi/",
+      "meaning": "pron. 任何人；有人",
+      "part_of_speech": "pronoun",
+      "example": "Anybody can do this.",
+      "level": 1
+    },
+    {
+      "word": "anyhow",
+      "phonetic": "/ˈenihaʊ/",
+      "meaning": "adv. 无论如何；不管怎样",
+      "part_of_speech": "adverb",
+      "example": "Anyhow, we tried our best.",
+      "level": 2
+    },
+    {
+      "word": "anyone",
+      "phonetic": "/ˈeniwʌn/",
+      "meaning": "pron. 任何人；有人",
+      "part_of_speech": "pronoun",
+      "example": "Is anyone here?",
+      "level": 1
+    },
+    {
+      "word": "anything",
+      "phonetic": "/ˈeniθɪŋ/",
+      "meaning": "pron. 任何事物；任何东西",
+      "part_of_speech": "pronoun",
+      "example": "I can do anything for you.",
+      "level": 1
+    },
+    {
+      "word": "anyway",
+      "phonetic": "/ˈeniweɪ/",
+      "meaning": "adv. 无论如何；不管怎样",
+      "part_of_speech": "adverb",
+      "example": "Anyway, let's proceed.",
+      "level": 1
+    },
+    {
+      "word": "anywhere",
+      "phonetic": "/ˈeniwer/",
+      "meaning": "adv./n. 任何地方；无论何处",
+      "part_of_speech": "adverb/noun",
+      "example": "You can go anywhere.",
+      "level": 1
+    },
+    {
+      "word": "apart",
+      "phonetic": "/əˈpɑːrt/",
+      "meaning": "adv. 分开；分离；相距",
+      "part_of_speech": "adverb",
+      "example": "Keep them apart.",
+      "level": 2
+    },
+    {
+      "word": "apartment",
+      "phonetic": "/əˈpɑːrtmənt/",
+      "meaning": "n. 公寓；套房",
+      "part_of_speech": "noun",
+      "example": "I live in an apartment.",
+      "level": 2
+    },
+    {
+      "word": "apologize",
+      "phonetic": "/əˈpɑːlədʒaɪz/",
+      "meaning": "v. 道歉；认错",
+      "part_of_speech": "verb",
+      "example": "I must apologize for my mistake.",
+      "level": 2
+    },
+    {
+      "word": "apology",
+      "phonetic": "/əˈpɑːlədʒi/",
+      "meaning": "n. 道歉；歉意",
+      "part_of_speech": "noun",
+      "example": "Please accept my apology.",
+      "level": 2
+    },
+    {
+      "word": "apparent",
+      "phonetic": "/əˈpærənt/",
+      "meaning": "adj. 明显的；表面上的",
+      "part_of_speech": "adjective",
+      "example": "The problem is apparent.",
+      "level": 2
+    },
+    {
+      "word": "appeal",
+      "phonetic": "/əˈpiːl/",
+      "meaning": "v./n. 呼吁；吸引；上诉",
+      "part_of_speech": "verb/noun",
+      "example": "The idea appeals to me.",
+      "level": 2
+    },
+    {
+      "word": "appear",
+      "phonetic": "/əˈpɪr/",
+      "meaning": "v. 出现；显得；似乎",
+      "part_of_speech": "verb",
+      "example": "She appeared from nowhere.",
+      "level": 1
+    },
+    {
+      "word": "appearance",
+      "phonetic": "/əˈpɪərəns/",
+      "meaning": "n. 外观；外貌；出现",
+      "part_of_speech": "noun",
+      "example": "Don't judge by appearance.",
+      "level": 2
+    },
+    {
+      "word": "appendix",
+      "phonetic": "/əˈpendɪks/",
+      "meaning": "n. 附录；阑尾",
+      "part_of_speech": "noun",
+      "example": "See the appendix for details.",
+      "level": 3
+    },
+    {
+      "word": "appetite",
+      "phonetic": "/ˈæpɪtaɪt/",
+      "meaning": "n. 食欲；胃口；欲望",
+      "part_of_speech": "noun",
+      "example": "I have a good appetite today.",
+      "level": 2
+    },
+    {
+      "word": "applaud",
+      "phonetic": "/əˈplɔːd/",
+      "meaning": "v. 鼓掌；赞赏；称赞",
+      "part_of_speech": "verb",
+      "example": "The audience applauded loudly.",
+      "level": 2
+    },
+    {
+      "word": "apple",
+      "phonetic": "/ˈæpl/",
+      "meaning": "n. 苹果",
+      "part_of_speech": "noun",
+      "example": "An apple a day keeps the doctor away.",
+      "level": 1
+    },
+    {
+      "word": "application",
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "meaning": "n. 应用；申请；应用程序",
+      "part_of_speech": "noun",
+      "example": "Submit your application online.",
+      "level": 2
+    },
+    {
+      "word": "apply",
+      "phonetic": "/əˈplaɪ/",
+      "meaning": "v. 申请；应用；适用",
+      "part_of_speech": "verb",
+      "example": "I want to apply for this job.",
+      "level": 2
+    },
+    {
+      "word": "appoint",
+      "phonetic": "/əˈpɔɪnt/",
+      "meaning": "v. 任命；指定；约定",
+      "part_of_speech": "verb",
+      "example": "They appointed him manager.",
+      "level": 2
+    },
+    {
+      "word": "appointment",
+      "phonetic": "/əˈpɔɪntmənt/",
+      "meaning": "n. 任命；约定；约会",
+      "part_of_speech": "noun",
+      "example": "I have an appointment at 3 PM.",
+      "level": 2
+    },
+    {
+      "word": "appreciate",
+      "phonetic": "/əˈpriːʃieɪt/",
+      "meaning": "v. 欣赏；感激；重视",
+      "part_of_speech": "verb",
+      "example": "I appreciate your help.",
+      "level": 2
+    },
+    {
+      "word": "approach",
+      "phonetic": "/əˈproʊtʃ/",
+      "meaning": "v./n. 接近；方法；途径",
+      "part_of_speech": "verb/noun",
+      "example": "We need a new approach.",
+      "level": 2
+    },
+    {
+      "word": "appropriate",
+      "phonetic": "/əˈproʊpriət/",
+      "meaning": "adj. 适当的；合适的",
+      "part_of_speech": "adjective",
+      "example": "Choose an appropriate response.",
+      "level": 2
+    },
+    {
+      "word": "approval",
+      "phonetic": "/əˈpruːvl/",
+      "meaning": "n. 批准；认可；赞成",
+      "part_of_speech": "noun",
+      "example": "We need his approval.",
+      "level": 2
+    },
+    {
+      "word": "approve",
+      "phonetic": "/əˈpruːv/",
+      "meaning": "v. 批准；认可；赞成",
+      "part_of_speech": "verb",
+      "example": "The committee approved the plan.",
+      "level": 2
+    },
+    {
+      "word": "approximately",
+      "phonetic": "/əˈprɑːksɪmətli/",
+      "meaning": "adv. 大约；近似",
+      "part_of_speech": "adverb",
+      "example": "It costs approximately $100.",
+      "level": 2
+    },
+    {
+      "word": "April",
+      "phonetic": "/ˈeɪprəl/",
+      "meaning": "n. 四月",
+      "part_of_speech": "noun",
+      "example": "My birthday is in April.",
+      "level": 1
+    },
+    {
+      "word": "arbitrary",
+      "phonetic": "/ˈɑːrbɪtreri/",
+      "meaning": "adj. 任意的；随意的；专横的",
+      "part_of_speech": "adjective",
+      "example": "This is an arbitrary decision.",
+      "level": 3
+    },
+    {
+      "word": "arc",
+      "phonetic": "/ɑːrk/",
+      "meaning": "n. 弧；弧形 v. 形成弧线",
+      "part_of_speech": "noun/verb",
+      "example": "The rainbow formed an arc.",
+      "level": 2
+    },
+    {
+      "word": "arch",
+      "phonetic": "/ɑːrtʃ/",
+      "meaning": "n. 拱门；拱形 v. 使成拱形",
+      "part_of_speech": "noun/verb",
+      "example": "The bridge has a beautiful arch.",
+      "level": 2
+    },
+    {
+      "word": "architect",
+      "phonetic": "/ˈɑːrkɪtekt/",
+      "meaning": "n. 建筑师；设计师",
+      "part_of_speech": "noun",
+      "example": "He is a famous architect.",
+      "level": 2
+    },
+    {
+      "word": "architecture",
+      "phonetic": "/ˈɑːrkɪtektʃər/",
+      "meaning": "n. 建筑；建筑学；架构",
+      "part_of_speech": "noun",
+      "example": "I studied architecture at university.",
+      "level": 2
+    },
+    {
+      "word": "area",
+      "phonetic": "/ˈeriə/",
+      "meaning": "n. 区域；面积；领域",
+      "part_of_speech": "noun",
+      "example": "This area is restricted.",
+      "level": 1
+    },
+    {
+      "word": "argue",
+      "phonetic": "/ˈɑːrɡjuː/",
+      "meaning": "v. 争论；辩论；主张",
+      "part_of_speech": "verb",
+      "example": "They argued about politics.",
+      "level": 2
+    },
+    {
+      "word": "argument",
+      "phonetic": "/ˈɑːrɡjumənt/",
+      "meaning": "n. 争论；论点；论据",
+      "part_of_speech": "noun",
+      "example": "His argument was convincing.",
+      "level": 2
+    },
+    {
+      "word": "arise",
+      "phonetic": "/əˈraɪz/",
+      "meaning": "v. 出现；产生；兴起",
+      "part_of_speech": "verb",
+      "example": "A problem has arisen.",
+      "level": 2
+    },
+    {
+      "word": "arithmetic",
+      "phonetic": "/əˈrɪθmətɪk/",
+      "meaning": "n. 算术；计算",
+      "part_of_speech": "noun",
+      "example": "I'm good at arithmetic.",
+      "level": 2
+    },
+    {
+      "word": "arm",
+      "phonetic": "/ɑːrm/",
+      "meaning": "n. 手臂；武器 v. 武装",
+      "part_of_speech": "noun/verb",
+      "example": "Raise your arm.",
+      "level": 1
+    },
+    {
+      "word": "army",
+      "phonetic": "/ˈɑːrmi/",
+      "meaning": "n. 军队；陆军",
+      "part_of_speech": "noun",
+      "example": "He joined the army.",
+      "level": 1
+    },
+    {
+      "word": "around",
+      "phonetic": "/əˈraʊnd/",
+      "meaning": "prep./adv. 围绕；大约；到处",
+      "part_of_speech": "preposition/adverb",
+      "example": "There are trees around the house.",
+      "level": 1
+    },
+    {
+      "word": "arrange",
+      "phonetic": "/əˈreɪndʒ/",
+      "meaning": "v. 安排；整理；排列",
+      "part_of_speech": "verb",
+      "example": "I'll arrange the meeting.",
+      "level": 2
+    },
+    {
+      "word": "arrangement",
+      "phonetic": "/əˈreɪndʒmənt/",
+      "meaning": "n. 安排；布置；整理",
+      "part_of_speech": "noun",
+      "example": "The arrangement looks nice.",
+      "level": 2
+    },
+    {
+      "word": "arrest",
+      "phonetic": "/əˈrest/",
+      "meaning": "v./n. 逮捕；拘留",
+      "part_of_speech": "verb/noun",
+      "example": "They arrested the suspect.",
+      "level": 2
+    },
+    {
+      "word": "arrival",
+      "phonetic": "/əˈraɪvl/",
+      "meaning": "n. 到达；到来；抵达",
+      "part_of_speech": "noun",
+      "example": "We waited for their arrival.",
+      "level": 2
+    },
+    {
+      "word": "arrive",
+      "phonetic": "/əˈraɪv/",
+      "meaning": "v. 到达；抵达；到来",
+      "part_of_speech": "verb",
+      "example": "We arrived at the airport.",
+      "level": 1
+    },
+    {
+      "word": "arrow",
+      "phonetic": "/ˈæroʊ/",
+      "meaning": "n. 箭；箭头；箭号",
+      "part_of_speech": "noun",
+      "example": "Follow the arrow.",
+      "level": 2
+    },
+    {
+      "word": "art",
+      "phonetic": "/ɑːrt/",
+      "meaning": "n. 艺术；美术；技艺",
+      "part_of_speech": "noun",
+      "example": "She studied art at school.",
+      "level": 1
+    },
+    {
+      "word": "article",
+      "phonetic": "/ˈɑːrtɪkl/",
+      "meaning": "n. 文章；物品；冠词",
+      "part_of_speech": "noun",
+      "example": "I wrote an article for the newspaper.",
+      "level": 1
+    },
+    {
+      "word": "artificial",
+      "phonetic": "/ˌɑːrtɪˈfɪʃl/",
+      "meaning": "adj. 人工的；人造的；假的",
+      "part_of_speech": "adjective",
+      "example": "This is artificial intelligence.",
+      "level": 2
+    },
+    {
+      "word": "artist",
+      "phonetic": "/ˈɑːrtɪst/",
+      "meaning": "n. 艺术家；画家",
+      "part_of_speech": "noun",
+      "example": "He is a famous artist.",
+      "level": 1
+    },
+    {
+      "word": "artistic",
+      "phonetic": "/ɑːrˈtɪstɪk/",
+      "meaning": "adj. 艺术的；有艺术天赋的",
+      "part_of_speech": "adjective",
+      "example": "She has artistic talent.",
+      "level": 2
+    },
+    {
+      "word": "as",
+      "phonetic": "/æz/",
+      "meaning": "adv./prep./conj. 作为；如同；因为",
+      "part_of_speech": "adverb/preposition/conjunction",
+      "example": "As you know, I'm busy.",
+      "level": 1
+    },
+    {
+      "word": "ash",
+      "phonetic": "/æʃ/",
+      "meaning": "n. 灰；灰烬",
+      "part_of_speech": "noun",
+      "example": "The fire turned everything to ash.",
+      "level": 2
+    },
+    {
+      "word": "ashamed",
+      "phonetic": "/əˈʃeɪmd/",
+      "meaning": "adj. 羞愧的；惭愧的",
+      "part_of_speech": "adjective",
+      "example": "He felt ashamed of his behavior.",
+      "level": 2
+    },
+    {
+      "word": "Asia",
+      "phonetic": "/ˈeɪʒə/",
+      "meaning": "n. 亚洲",
+      "part_of_speech": "noun",
+      "example": "She traveled to Asia.",
+      "level": 1
+    },
+    {
+      "word": "Asian",
+      "phonetic": "/ˈeɪʒən/",
+      "meaning": "adj./n. 亚洲的；亚洲人",
+      "part_of_speech": "adjective/noun",
+      "example": "He is of Asian descent.",
+      "level": 1
+    },
+    {
+      "word": "aside",
+      "phonetic": "/əˈsaɪd/",
+      "meaning": "adv. 在旁边；到一边",
+      "part_of_speech": "adverb",
+      "example": "Set your worries aside.",
+      "level": 2
+    },
+    {
+      "word": "ask",
+      "phonetic": "/æsk/",
+      "meaning": "v. 问；询问；请求",
+      "part_of_speech": "verb",
+      "example": "Can I ask you a question?",
+      "level": 1
+    },
+    {
+      "word": "asleep",
+      "phonetic": "/əˈsliːp/",
+      "meaning": "adj. 睡着的",
+      "part_of_speech": "adjective",
+      "example": "The baby is asleep.",
+      "level": 1
+    },
+    {
+      "word": "aspect",
+      "phonetic": "/ˈæspekt/",
+      "meaning": "n. 方面；层面；外观",
+      "part_of_speech": "noun",
+      "example": "Consider all aspects of the problem.",
+      "level": 2
+    },
+    {
+      "word": "assemble",
+      "phonetic": "/əˈsembl/",
+      "meaning": "v. 组装；集合；聚集",
+      "part_of_speech": "verb",
+      "example": "Please assemble at the meeting point.",
+      "level": 2
+    },
+    {
+      "word": "assembly",
+      "phonetic": "/əˈsembli/",
+      "meaning": "n. 集会；组装；大会",
+      "part_of_speech": "noun",
+      "example": "The assembly will start at 9 AM.",
+      "level": 2
+    },
+    {
+      "word": "assert",
+      "phonetic": "/əˈsɜːrt/",
+      "meaning": "v. 断言；宣称；坚持",
+      "part_of_speech": "verb",
+      "example": "He asserted his innocence.",
+      "level": 2
+    },
+    {
+      "word": "assessment",
+      "phonetic": "/əˈsesmənt/",
+      "meaning": "n. 评估；评价；估价",
+      "part_of_speech": "noun",
+      "example": "The assessment will take place next week.",
+      "level": 2
+    },
+    {
+      "word": "assess",
+      "phonetic": "/əˈses/",
+      "meaning": "v. 评估；评价；估价",
+      "part_of_speech": "verb",
+      "example": "We need to assess the situation.",
+      "level": 2
+    },
+    {
+      "word": "asset",
+      "phonetic": "/ˈæset/",
+      "meaning": "n. 资产；财产；优点",
+      "part_of_speech": "noun",
+      "example": "Time is our most valuable asset.",
+      "level": 2
+    },
+    {
+      "word": "assign",
+      "phonetic": "/əˈsaɪn/",
+      "meaning": "v. 分配；指派；布置",
+      "part_of_speech": "verb",
+      "example": "I'll assign you a task.",
+      "level": 2
+    },
+    {
+      "word": "assignment",
+      "phonetic": "/əˈsaɪnmənt/",
+      "meaning": "n. 作业；任务；分配",
+      "part_of_speech": "noun",
+      "example": "Finish your assignment by tomorrow.",
+      "level": 2
+    },
+    {
+      "word": "assist",
+      "phonetic": "/əˈsɪst/",
+      "meaning": "v. 帮助；协助",
+      "part_of_speech": "verb",
+      "example": "I'll assist you with your project.",
+      "level": 2
+    },
+    {
+      "word": "assistance",
+      "phonetic": "/əˈsɪstəns/",
+      "meaning": "n. 帮助；协助",
+      "part_of_speech": "noun",
+      "example": "Thank you for your assistance.",
+      "level": 2
+    },
+    {
+      "word": "assistant",
+      "phonetic": "/əˈsɪstənt/",
+      "meaning": "n. 助手；助理 adj. 辅助的",
+      "part_of_speech": "noun/adjective",
+      "example": "She works as a teaching assistant.",
+      "level": 2
+    },
+    {
+      "word": "associate",
+      "phonetic": "/əˈsoʊʃieɪt/",
+      "meaning": "v. 联系；关联 n. 同事；伙伴",
+      "part_of_speech": "verb/noun",
+      "example": "I associate him with success.",
+      "level": 2
+    },
+    {
+      "word": "association",
+      "phonetic": "/əˌsoʊʃiˈeɪʃn/",
+      "meaning": "n. 协会；社团；关联",
+      "part_of_speech": "noun",
+      "example": "She joined the association.",
+      "level": 2
+    },
+    {
+      "word": "assume",
+      "phonetic": "/əˈsuːm/",
+      "meaning": "v. 假定；假设；承担",
+      "part_of_speech": "verb",
+      "example": "Let's assume this is true.",
+      "level": 2
+    },
+    {
+      "word": "assumption",
+      "phonetic": "/əˈsʌmpʃn/",
+      "meaning": "n. 假定；假设；设想",
+      "part_of_speech": "noun",
+      "example": "Your assumption is wrong.",
+      "level": 2
+    },
+    {
+      "word": "assure",
+      "phonetic": "/əˈʃʊr/",
+      "meaning": "v. 保证；确保；使确信",
+      "part_of_speech": "verb",
+      "example": "I assure you it's safe.",
+      "level": 2
+    },
+    {
+      "word": "astonish",
+      "phonetic": "/əˈstɑːnɪʃ/",
+      "meaning": "v. 使惊讶；使吃惊",
+      "part_of_speech": "verb",
+      "example": "The news astonished everyone.",
+      "level": 2
+    },
+    {
+      "word": "at",
+      "phonetic": "/æt/",
+      "meaning": "prep. 在；向；以",
+      "part_of_speech": "preposition",
+      "example": "Meet me at the station.",
+      "level": 1
+    },
+    {
+      "word": "athlete",
+      "phonetic": "/ˈæθliːt/",
+      "meaning": "n. 运动员；体育家",
+      "part_of_speech": "noun",
+      "example": "He is a professional athlete.",
+      "level": 2
+    },
+    {
+      "word": "athletic",
+      "phonetic": "/æθˈletɪk/",
+      "meaning": "adj. 运动的；体格健壮的",
+      "part_of_speech": "adjective",
+      "example": "She has an athletic build.",
+      "level": 2
+    },
+    {
+      "word": "atmosphere",
+      "phonetic": "/ˈætməsfɪr/",
+      "meaning": "n. 大气；气氛；氛围",
+      "part_of_speech": "noun",
+      "example": "The atmosphere was tense.",
+      "level": 2
+    },
+    {
+      "word": "atom",
+      "phonetic": "/ˈætəm/",
+      "meaning": "n. 原子",
+      "part_of_speech": "noun",
+      "example": "Everything is made of atoms.",
+      "level": 2
+    },
+    {
+      "word": "attach",
+      "phonetic": "/əˈtætʃ/",
+      "meaning": "v. 附加；附着；连接",
+      "part_of_speech": "verb",
+      "example": "Attach the file to the email.",
+      "level": 2
+    },
+    {
+      "word": "attack",
+      "phonetic": "/əˈtæk/",
+      "meaning": "v./n. 攻击；袭击",
+      "part_of_speech": "verb/noun",
+      "example": "The dog attacked the intruder.",
+      "level": 2
+    },
+    {
+      "word": "attain",
+      "phonetic": "/əˈteɪn/",
+      "meaning": "v. 达到；获得；实现",
+      "part_of_speech": "verb",
+      "example": "She attained her goal.",
+      "level": 2
+    },
+    {
+      "word": "attempt",
+      "phonetic": "/əˈtempt/",
+      "meaning": "v./n. 尝试；企图",
+      "part_of_speech": "verb/noun",
+      "example": "He made an attempt to escape.",
+      "level": 2
+    }
+  ]
+}

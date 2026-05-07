@@ -1,0 +1,31 @@
+
+package com.example.englishlearning.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val ColorPrimary = Color(0xFF1E88E5)
+val ColorOnPrimary = Color(0xFFFFFFFF)
+val ColorPrimaryContainer = Color(0xFFE3F2FD)
+val ColorOnPrimaryContainer = Color(0xFF001E3C)
+val ColorSecondary = Color(0xFF43A047)
+val ColorOnSecondary = Color(0xFFFFFFFF)
+val ColorSecondaryContainer = Color(0xFFC8E6C9)
+val ColorOnSecondaryContainer = Color(0xFF003804)
+val ColorTertiary = Color(0xFFFB8C00)
+val ColorOnTertiary = Color(0xFFFFFFFF)
+val ColorTertiaryContainer = Color(0xFFFFECB3)
+val ColorOnTertiaryContainer = Color(0xFF331B00)
+val ColorError = Color(0xFFE53935)
+val ColorErrorContainer = Color(0xFFFFEBEE)
+val ColorOnError = Color(0xFFFFFFFF)
+val ColorOnErrorContainer = Color(0xFF410E0B)
+val ColorBackground = Color(0xFFFAFAFA)
+val ColorOnBackground = Color(0xFF1A1A1A)
+val ColorSurface = Color(0xFFFFFFFF)
+val ColorOnSurface = Color(0xFF1A1A1A)
+val ColorSurfaceVariant = Color(0xFFEEEEEE)
+val ColorOnSurfaceVariant = Color(0xFF424242)
+val ColorOutline = Color(0xFFBDBDBD)
+val ColorInverseOnSurface = Color(0xFFFAFAFA)
+val ColorInverseSurface = Color(0xFF212121)
+val ColorInversePrimary = Color(0xFF90CAF9)

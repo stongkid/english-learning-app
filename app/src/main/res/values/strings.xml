@@ -1,0 +1,31 @@
+
+<resources>
+    <string name="app_name">英语学习助手</string>
+    <string name="title_home">首页</string>
+    <string name="title_listening">听力练习</string>
+    <string name="title_reading">阅读练习</string>
+    <string name="title_words">单词学习</string>
+    <string name="title_review">今日复习</string>
+    <string name="title_statistics">学习统计</string>
+    <string name="import">导入</string>
+    <string name="search">搜索</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="add_note">添加注释</string>
+    <string name="view_definition">查看释义</string>
+    <string name="favorite">收藏</string>
+    <string name="pronunciation">发音</string>
+    <string name="today_target">今日目标</string>
+    <string name="recent_learning">最近学习</string>
+    <string name="all">全部</string>
+    <string name="mastered">已掌握</string>
+    <string name="review">待复习</string>
+    <string name="recognized">认识</string>
+    <string name="vague">模糊</string>
+    <string name="unknown">不认识</string>
+    <string name="font_size">字体大小</string>
+    <string name="theme">主题</string>
+    <string name="loop">循环</string>
+    <string name="speed">语速</string>
+    <string name="volume">音量</string>
+</resources>
