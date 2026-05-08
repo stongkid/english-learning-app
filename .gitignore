@@ -40,5 +40,4 @@ DerivedData
 *.sln.docstates
 app/build/
 !app/src/main/assets/
-app/src/main/assets/images/
 !app/src/main/assets/images/
