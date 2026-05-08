@@ -263,7 +263,7 @@ If you have any questions, want to collaborate, or need help, feel free to reach
 
 Scan the QR code below to add me on WeChat:
 
-![WeChat QR Code](./assets/images/wechat.jpg)
+![WeChat QR Code](./app/src/main/assets/images/wechat.jpg)
 
 ### Other Ways to Connect
 
