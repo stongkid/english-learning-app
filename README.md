@@ -255,9 +255,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+## 📞 Contact / 联系方式
 
-If you have any questions or need help, please open an issue or contact the repository owner.
+If you have any questions, want to collaborate, or need help, feel free to reach out!
+
+### WeChat / 微信
+
+Scan the QR code below to add me on WeChat:
+
+![WeChat QR Code](./assets/images/wechat.jpg)
+
+### Other Ways to Connect
+
+- **GitHub Issues**: [Open an Issue](https://github.com/stongkid/english-learning-app/issues)
+- **Repository**: [https://github.com/stongkid/english-learning-app](https://github.com/stongkid/english-learning-app)
 
 ---
 
