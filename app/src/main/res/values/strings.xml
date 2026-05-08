@@ -7,7 +7,7 @@
     <string name="title_words">单词学习</string>
     <string name="title_review">今日复习</string>
     <string name="title_statistics">学习统计</string>
-    <string name="import">导入</string>
+    <string name="import_text">导入</string>
     <string name="search">搜索</string>
     <string name="play">播放</string>
     <string name="pause">暂停</string>

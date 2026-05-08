@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.englishlearning'
+    namespace 'com.bainex.englishlearning'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.englishlearning"
+        applicationId "com.bainex.englishlearning"
         minSdk 26
         targetSdk 34
         versionCode 1
@@ -30,11 +30,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '17'
     }
     buildFeatures {
         compose true
@@ -76,8 +76,8 @@ dependencies {
     // ML Kit OCR
     implementation 'com.google.mlkit:text-recognition:16.0.0'
 
-    // PDF Viewer
-    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    // PDF Viewer（使用社区 fork 版本，原始 barteksc 版本在 JitPack 上已不可用）
+    implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.3'
 
     // Retrofit for API calls
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
