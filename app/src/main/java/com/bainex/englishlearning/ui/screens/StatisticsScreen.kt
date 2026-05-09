@@ -1,16 +1,23 @@
-﻿
+
 package com.bainex.englishlearning.ui.screens
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AudioFile
 import androidx.compose.material.icons.filled.Book
@@ -52,9 +59,9 @@ fun StatisticsScreen() {
 }
 
 @Composable
-fun HeaderSection() {
+private fun HeaderSection() {
     Text(
-        text = "瀛︿範缁熻",
+        text = "学习统计",
         fontSize = 24.sp,
         fontWeight = FontWeight.Bold,
         color = MaterialTheme.colorScheme.onBackground,
@@ -63,36 +70,36 @@ fun HeaderSection() {
 }
 
 @Composable
-fun StatsCards() {
+private fun StatsCards() {
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         StatCard(
             icon = Icons.Default.AudioFile,
-            label = "鍚姏",
-            value = "5灏忔椂",
+            label = "听力",
+            value = "5小时",
             color = MaterialTheme.colorScheme.primary
         )
         StatCard(
             icon = Icons.Default.Book,
-            label = "闃呰",
-            value = "20绡?,
+            label = "阅读",
+            value = "20篇",
             color = MaterialTheme.colorScheme.secondary
         )
         StatCard(
             icon = Icons.Default.LibraryBooks,
-            label = "鍗曡瘝",
-            value = "320涓?,
-            color = MaterialTheme.colorScheme.accent
+            label = "单词",
+            value = "320个",
+            color = MaterialTheme.colorScheme.tertiary
         )
     }
-    androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(24.dp))
+    Spacer(modifier = Modifier.height(24.dp))
 }
 
 @Composable
-fun StatCard(
-    icon: androidx.compose.material.icons.Icon,
+private fun RowScope.StatCard(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
     label: String,
     value: String,
     color: Color
@@ -115,7 +122,7 @@ fun StatCard(
                 modifier = Modifier.size(32.dp),
                 tint = color
             )
-            androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = value,
                 fontSize = 24.sp,
@@ -129,11 +136,11 @@ fun StatCard(
             )
         }
     }
-    androidx.compose.foundation.layout.Spacer(modifier = Modifier.width(12.dp))
+    Spacer(modifier = Modifier.width(12.dp))
 }
 
 @Composable
-fun LearningProgressSection(viewModel: WordViewModel) {
+private fun LearningProgressSection(viewModel: WordViewModel) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(12.dp),
@@ -141,7 +148,7 @@ fun LearningProgressSection(viewModel: WordViewModel) {
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(
-                text = "瀛︿範杩涘害",
+                text = "学习进度",
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onBackground,
@@ -149,32 +156,32 @@ fun LearningProgressSection(viewModel: WordViewModel) {
             )
             
             ProgressBar(
-                label = "CET4璇嶆眹",
+                label = "CET4词汇",
                 progress = 320,
                 total = 4500,
                 color = MaterialTheme.colorScheme.primary
             )
             
             ProgressBar(
-                label = "宸叉帉鎻?,
+                label = "已掌握",
                 progress = 200,
                 total = 320,
                 color = MaterialTheme.colorScheme.secondary
             )
             
             ProgressBar(
-                label = "澶嶄範涓?,
+                label = "复习中",
                 progress = 120,
                 total = 320,
-                color = MaterialTheme.colorScheme.accent
+                color = MaterialTheme.colorScheme.tertiary
             )
         }
     }
-    androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(24.dp))
+    Spacer(modifier = Modifier.height(24.dp))
 }
 
 @Composable
-fun ProgressBar(label: String, progress: Int, total: Int, color: Color) {
+private fun ProgressBar(label: String, progress: Int, total: Int, color: Color) {
     val percentage = if (total > 0) (progress.toFloat() / total.toFloat() * 100).toInt() else 0
     
     Column(modifier = Modifier.fillMaxWidth()) {
@@ -209,12 +216,12 @@ fun ProgressBar(label: String, progress: Int, total: Int, color: Color) {
                     .background(color)
             )
         }
-        androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(12.dp))
+        Spacer(modifier = Modifier.height(12.dp))
     }
 }
 
 @Composable
-fun AchievementsSection() {
+private fun AchievementsSection() {
     Card(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(12.dp),
@@ -222,7 +229,7 @@ fun AchievementsSection() {
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(
-                text = "瀛︿範鎴愬氨",
+                text = "学习成就",
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onBackground,
@@ -235,26 +242,26 @@ fun AchievementsSection() {
             ) {
                 AchievementItem(
                     icon = Icons.Default.CheckCircle,
-                    title = "鍒濆鑰?,
-                    description = "瀹屾垚棣栨瀛︿範",
+                    title = "初学者",
+                    description = "完成首次学习",
                     unlocked = true
                 )
                 AchievementItem(
                     icon = Icons.Default.TrendingUp,
-                    title = "鍧氭寔7澶?,
-                    description = "杩炵画瀛︿範涓€鍛?,
+                    title = "坚持7天",
+                    description = "连续学习一周",
                     unlocked = true
                 )
                 AchievementItem(
                     icon = Icons.Default.LibraryBooks,
-                    title = "璇嶆眹杈句汉",
-                    description = "瀛︿範100涓崟璇?,
+                    title = "词汇达人",
+                    description = "学习100个单词",
                     unlocked = true
                 )
                 AchievementItem(
                     icon = Icons.Default.AudioFile,
-                    title = "鍚姏涓撳",
-                    description = "绱鍚姏10灏忔椂",
+                    title = "听力专家",
+                    description = "累计听力10小时",
                     unlocked = false
                 )
             }
@@ -263,14 +270,14 @@ fun AchievementsSection() {
 }
 
 @Composable
-fun AchievementItem(
-    icon: androidx.compose.material.icons.Icon,
+private fun AchievementItem(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
     title: String,
     description: String,
     unlocked: Boolean
 ) {
     Column(
-        modifier = Modifier.weight(1f),
+        modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Box(
@@ -287,7 +294,7 @@ fun AchievementItem(
                 tint = if (unlocked) MaterialTheme.colorScheme.primary else Color.Gray.copy(0.5f)
             )
         }
-        androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(8.dp))
         Text(
             text = title,
             fontSize = 12.sp,

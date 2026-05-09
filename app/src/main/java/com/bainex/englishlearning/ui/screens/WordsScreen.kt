@@ -1,9 +1,12 @@
-﻿
+
 package com.bainex.englishlearning.ui.screens
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -12,6 +15,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.LibraryBooks
 import androidx.compose.material.icons.filled.Search
@@ -45,9 +50,10 @@ fun WordsScreen(
     val wordViewModel: WordViewModel = hiltViewModel()
     val wordList by wordViewModel.wordList.collectAsState()
     var searchQuery by remember { mutableStateOf("") }
+    var isSearchActive by remember { mutableStateOf(false) }
 
     Column(modifier = Modifier.fillMaxSize()) {
-        SearchBarSection(query = searchQuery, onQueryChange = { searchQuery = it })
+        SearchBarSection(query = searchQuery, onQueryChange = { searchQuery = it }, active = isSearchActive, onActiveChange = { isSearchActive = it })
         
         LazyColumn(
             modifier = Modifier.weight(1f),
@@ -62,12 +68,14 @@ fun WordsScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SearchBarSection(query: String, onQueryChange: (String) -> Unit) {
+private fun SearchBarSection(query: String, onQueryChange: (String) -> Unit, active: Boolean, onActiveChange: (Boolean) -> Unit) {
     SearchBar(
         query = query,
         onQueryChange = onQueryChange,
         onSearch = {},
-        placeholder = { Text(text = "鎼滅储鍗曡瘝...") },
+        active = active,
+        onActiveChange = onActiveChange,
+        placeholder = { Text(text = "搜索单词...") },
         leadingIcon = {
             Icon(imageVector = Icons.Default.Search, contentDescription = "Search")
         },
@@ -78,7 +86,7 @@ fun SearchBarSection(query: String, onQueryChange: (String) -> Unit) {
 }
 
 @Composable
-fun WordItem(word: Word, onClick: () -> Unit) {
+private fun WordItem(word: Word, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -96,14 +104,14 @@ fun WordItem(word: Word, onClick: () -> Unit) {
                     modifier = Modifier
                         .size(48.dp)
                         .clip(RoundedCornerShape(10.dp))
-                        .background(MaterialTheme.colorScheme.accent.copy(0.1f)),
+                        .background(MaterialTheme.colorScheme.tertiary.copy(0.1f)),
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(
                         imageVector = Icons.Default.LibraryBooks,
                         contentDescription = word.word,
                         modifier = Modifier.size(24.dp),
-                        tint = MaterialTheme.colorScheme.accent
+                        tint = MaterialTheme.colorScheme.tertiary
                     )
                 }
                 
@@ -134,5 +142,5 @@ fun WordItem(word: Word, onClick: () -> Unit) {
             }
         }
     }
-    androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.dp))
 }

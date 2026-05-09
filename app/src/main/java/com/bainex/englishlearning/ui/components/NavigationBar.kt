@@ -1,4 +1,5 @@
-﻿package com.bainex.englishlearning.ui.components
+
+package com.bainex.englishlearning.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -9,6 +10,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Book
 import androidx.compose.material.icons.filled.Home
@@ -21,7 +23,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -37,10 +39,9 @@ sealed class Screen(val route: String, val label: Int, val icon: ImageVector) {
 }
 
 @Composable
-fun AppNavigationBar(
+fun NavigationBar(
     currentScreen: Screen,
-    onNavigate: (Screen) -> Unit,
-    modifier: Modifier = Modifier
+    onNavigate: (Screen) -> Unit
 ) {
     val screens = listOf(
         Screen.Home,
@@ -51,7 +52,7 @@ fun AppNavigationBar(
     )
 
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxWidth()
             .height(64.dp)
             .background(MaterialTheme.colorScheme.surface)
@@ -81,7 +82,7 @@ fun AppNavigationBar(
                             tint = if (isSelected) {
                                 MaterialTheme.colorScheme.primary
                             } else {
-                                MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                                MaterialTheme.colorScheme.onSurface.copy(0.6f)
                             }
                         )
                         Text(
@@ -91,7 +92,7 @@ fun AppNavigationBar(
                             color = if (isSelected) {
                                 MaterialTheme.colorScheme.primary
                             } else {
-                                MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                                MaterialTheme.colorScheme.onSurface.copy(0.6f)
                             }
                         )
                     }

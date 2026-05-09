@@ -1,4 +1,4 @@
-﻿
+
 package com.bainex.englishlearning
 
 import android.app.Application

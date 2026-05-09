@@ -1,4 +1,4 @@
-﻿
+
 package com.bainex.englishlearning
 
 import android.os.Bundle
@@ -6,7 +6,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
@@ -47,7 +46,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainApp() {
-    var currentScreen by remember { mutableStateOf(Screen.Home) }
+    var currentScreen: Screen by remember { mutableStateOf(Screen.Home) }
     val context = LocalContext.current
 
     fun handleNavigate(screen: Screen) {
@@ -98,8 +97,7 @@ fun MainApp() {
 
         NavigationBar(
             currentScreen = currentScreen,
-            onNavigate = { handleNavigate(it) },
-            modifier = Modifier.padding(bottom = 0.dp)
+            onNavigate = { handleNavigate(it) }
         )
     }
 }

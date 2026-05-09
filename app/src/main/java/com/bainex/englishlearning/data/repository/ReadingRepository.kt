@@ -1,9 +1,9 @@
-﻿
+
 package com.bainex.englishlearning.data.repository
 
 import com.bainex.englishlearning.data.dao.AnnotationDao
 import com.bainex.englishlearning.data.dao.ReadingDao
-import com.bainex.englishlearning.data.model.Annotation
+import com.bainex.englishlearning.data.model.WordAnnotation
 import com.bainex.englishlearning.data.model.Reading
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
@@ -24,12 +24,12 @@ class ReadingRepository @Inject constructor(
 
     suspend fun deleteReading(id: Long) = readingDao.deleteReading(id)
 
-    fun getAnnotationsByReadingId(readingId: Long): Flow<List<Annotation>> =
+    fun getAnnotationsByReadingId(readingId: Long): Flow<List<WordAnnotation>> =
         annotationDao.getAnnotationsByReadingId(readingId)
 
-    suspend fun insertAnnotation(annotation: Annotation): Long = annotationDao.insertAnnotation(annotation)
+    suspend fun insertAnnotation(annotation: WordAnnotation): Long = annotationDao.insertAnnotation(annotation)
 
-    suspend fun updateAnnotation(annotation: Annotation) = annotationDao.updateAnnotation(annotation)
+    suspend fun updateAnnotation(annotation: WordAnnotation) = annotationDao.updateAnnotation(annotation)
 
     suspend fun deleteAnnotation(id: Long) = annotationDao.deleteAnnotation(id)
 }

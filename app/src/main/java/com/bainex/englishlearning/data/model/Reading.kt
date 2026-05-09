@@ -1,4 +1,4 @@
-﻿
+
 package com.bainex.englishlearning.data.model
 
 import androidx.room.Entity

@@ -1,9 +1,12 @@
-﻿
+
 package com.bainex.englishlearning.ui.screens
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -12,6 +15,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Book
@@ -48,9 +53,10 @@ fun ReadingScreen(
     val readingViewModel: ReadingViewModel = hiltViewModel()
     val readingList by readingViewModel.readingList.collectAsState()
     var searchQuery by remember { mutableStateOf("") }
+    var isSearchActive by remember { mutableStateOf(false) }
 
     Column(modifier = Modifier.fillMaxSize()) {
-        SearchBarSection(query = searchQuery, onQueryChange = { searchQuery = it })
+        SearchBarSection(query = searchQuery, onQueryChange = { searchQuery = it }, active = isSearchActive, onActiveChange = { isSearchActive = it })
         
         LazyColumn(
             modifier = Modifier.weight(1f),
@@ -79,12 +85,14 @@ fun ReadingScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SearchBarSection(query: String, onQueryChange: (String) -> Unit) {
+private fun SearchBarSection(query: String, onQueryChange: (String) -> Unit, active: Boolean, onActiveChange: (Boolean) -> Unit) {
     SearchBar(
         query = query,
         onQueryChange = onQueryChange,
         onSearch = {},
-        placeholder = { Text(text = "鎼滅储闃呰鏉愭枡...") },
+        active = active,
+        onActiveChange = onActiveChange,
+        placeholder = { Text(text = "搜索阅读材料...") },
         leadingIcon = {
             Icon(imageVector = Icons.Default.Search, contentDescription = "Search")
         },
@@ -95,7 +103,7 @@ fun SearchBarSection(query: String, onQueryChange: (String) -> Unit) {
 }
 
 @Composable
-fun ReadingItem(reading: Reading, onClick: () -> Unit) {
+private fun ReadingItem(reading: Reading, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -126,13 +134,13 @@ fun ReadingItem(reading: Reading, onClick: () -> Unit) {
                 
                 Column(modifier = Modifier.padding(start = 12.dp)) {
                     Text(
-                        text = reading.title ?: "鏈懡鍚嶆枃绔?,
+                        text = reading.title ?: "未命名文章",
                         fontSize = 16.sp,
                         fontWeight = FontWeight.Medium,
                         color = MaterialTheme.colorScheme.onBackground
                     )
                     Text(
-                        text = "${getSourceTypeLabel(reading.sourceType)} | 杩涘害锛?{reading.progress}%",
+                        text = "${getSourceTypeLabel(reading.sourceType)} | 进度：${reading.progress}%",
                         fontSize = 12.sp,
                         color = MaterialTheme.colorScheme.onBackground.copy(0.6f)
                     )
@@ -140,14 +148,14 @@ fun ReadingItem(reading: Reading, onClick: () -> Unit) {
             }
         }
     }
-    androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.dp))
 }
 
 fun getSourceTypeLabel(sourceType: Int): String {
     return when (sourceType) {
-        Reading.SOURCE_CAMERA -> "鎷嶇収"
+        Reading.SOURCE_CAMERA -> "拍照"
         Reading.SOURCE_PDF -> "PDF"
-        Reading.SOURCE_TEXT -> "鏂囨湰"
-        else -> "鍏朵粬"
+        Reading.SOURCE_TEXT -> "文本"
+        else -> "其他"
     }
 }

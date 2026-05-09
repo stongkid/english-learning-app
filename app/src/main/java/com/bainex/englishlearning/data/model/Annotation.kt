@@ -1,4 +1,4 @@
-﻿
+
 package com.bainex.englishlearning.data.model
 
 import androidx.room.Entity
@@ -16,7 +16,7 @@ import androidx.room.PrimaryKey
         )
     ]
 )
-data class Annotation(
+data class WordAnnotation(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
     val readingId: Long,
     val word: String,

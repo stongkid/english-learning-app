@@ -1,9 +1,9 @@
-﻿
+
 package com.bainex.englishlearning.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.bainex.englishlearning.data.model.Annotation
+import com.bainex.englishlearning.data.model.WordAnnotation
 import com.bainex.englishlearning.data.model.Reading
 import com.bainex.englishlearning.data.repository.ReadingRepository
 import kotlinx.coroutines.Dispatchers
@@ -75,13 +75,13 @@ class ReadingViewModel @Inject constructor(
     fun getAnnotationsByReadingId(readingId: Long) =
         readingRepository.getAnnotationsByReadingId(readingId)
 
-    fun addAnnotation(annotation: Annotation) {
+    fun addAnnotation(annotation: WordAnnotation) {
         viewModelScope.launch(Dispatchers.IO) {
             readingRepository.insertAnnotation(annotation)
         }
     }
 
-    fun updateAnnotation(annotation: Annotation) {
+    fun updateAnnotation(annotation: WordAnnotation) {
         viewModelScope.launch(Dispatchers.IO) {
             readingRepository.updateAnnotation(annotation)
         }

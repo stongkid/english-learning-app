@@ -1,9 +1,12 @@
-﻿
+
 package com.bainex.englishlearning.ui.screens
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -12,6 +15,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.AudioFile
@@ -48,9 +53,10 @@ fun ListeningScreen(
     val audioViewModel: AudioViewModel = hiltViewModel()
     val audioList by audioViewModel.audioList.collectAsState()
     var searchQuery by remember { mutableStateOf("") }
+    var isSearchActive by remember { mutableStateOf(false) }
 
     Column(modifier = Modifier.fillMaxSize()) {
-        SearchBarSection(query = searchQuery, onQueryChange = { searchQuery = it })
+        SearchBarSection(query = searchQuery, onQueryChange = { searchQuery = it }, active = isSearchActive, onActiveChange = { isSearchActive = it })
         
         LazyColumn(
             modifier = Modifier.weight(1f),
@@ -79,12 +85,14 @@ fun ListeningScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SearchBarSection(query: String, onQueryChange: (String) -> Unit) {
+private fun SearchBarSection(query: String, onQueryChange: (String) -> Unit, active: Boolean, onActiveChange: (Boolean) -> Unit) {
     SearchBar(
         query = query,
         onQueryChange = onQueryChange,
         onSearch = {},
-        placeholder = { Text(text = "鎼滅储闊抽鏂囦欢...") },
+        active = active,
+        onActiveChange = onActiveChange,
+        placeholder = { Text(text = "搜索音频文件...") },
         leadingIcon = {
             Icon(imageVector = Icons.Default.Search, contentDescription = "Search")
         },
@@ -95,7 +103,7 @@ fun SearchBarSection(query: String, onQueryChange: (String) -> Unit) {
 }
 
 @Composable
-fun AudioItem(audio: Audio, onClick: () -> Unit) {
+private fun AudioItem(audio: Audio, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -140,11 +148,11 @@ fun AudioItem(audio: Audio, onClick: () -> Unit) {
             }
         }
     }
-    androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.dp))
 }
 
 fun formatDuration(duration: Long?): String {
-    if (duration == null) return "鏈煡鏃堕暱"
+    if (duration == null) return "未知时长"
     val minutes = (duration / 1000) / 60
     val seconds = (duration / 1000) % 60
     return String.format("%d:%02d", minutes, seconds)

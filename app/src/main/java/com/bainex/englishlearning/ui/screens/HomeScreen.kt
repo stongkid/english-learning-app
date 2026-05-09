@@ -1,12 +1,14 @@
-﻿
+
 package com.bainex.englishlearning.ui.screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -17,6 +19,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Book
 import androidx.compose.material.icons.filled.MusicNote
@@ -99,7 +102,7 @@ fun HomeScreen(
 }
 
 @Composable
-fun HeaderSection() {
+private fun HeaderSection() {
     Row(
         modifier = Modifier.fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically,
@@ -107,13 +110,13 @@ fun HeaderSection() {
     ) {
         Column {
             Text(
-                text = "鑻辫瀛︿範鍔╂墜",
+                text = "英语学习助手",
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onBackground
             )
             Text(
-                text = "姣忓ぉ杩涙涓€鐐圭偣",
+                text = "每天进步一点点",
                 fontSize = 14.sp,
                 color = MaterialTheme.colorScheme.onBackground.copy(0.6f)
             )
@@ -138,36 +141,36 @@ fun HeaderSection() {
 }
 
 @Composable
-fun StatsSection(viewModel: WordViewModel) {
+private fun StatsSection(viewModel: WordViewModel) {
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         StatCard(
             icon = Icons.Default.MusicNote,
-            label = "鍚姏",
+            label = "听力",
             value = "30min",
             color = MaterialTheme.colorScheme.primary
         )
         StatCard(
             icon = Icons.Default.Book,
-            label = "闃呰",
-            value = "2绡?,
+            label = "阅读",
+            value = "2篇",
             color = MaterialTheme.colorScheme.secondary
         )
         StatCard(
             icon = Icons.Default.Star,
-            label = "鍗曡瘝",
-            value = "50涓?,
-            color = MaterialTheme.colorScheme.accent
+            label = "单词",
+            value = "50个",
+            color = MaterialTheme.colorScheme.tertiary
         )
     }
     Spacer(modifier = Modifier.height(24.dp))
 }
 
 @Composable
-fun StatCard(
-    icon: androidx.compose.material.icons.Icon,
+private fun RowScope.StatCard(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
     label: String,
     value: String,
     color: Color
@@ -208,14 +211,14 @@ fun StatCard(
 }
 
 @Composable
-fun QuickActionsSection(
+private fun QuickActionsSection(
     onListening: () -> Unit,
     onReading: () -> Unit,
     onWords: () -> Unit,
     onStatistics: () -> Unit
 ) {
     Text(
-        text = "蹇嵎鍏ュ彛",
+        text = "快捷入口",
         fontSize = 18.sp,
         fontWeight = FontWeight.Bold,
         modifier = Modifier.padding(bottom = 12.dp)
@@ -226,25 +229,25 @@ fun QuickActionsSection(
     ) {
         ActionCard(
             icon = Icons.Default.MusicNote,
-            label = "鍚姏",
+            label = "听力",
             color = MaterialTheme.colorScheme.primary,
             onClick = onListening
         )
         ActionCard(
             icon = Icons.Default.Book,
-            label = "闃呰",
+            label = "阅读",
             color = MaterialTheme.colorScheme.secondary,
             onClick = onReading
         )
         ActionCard(
             icon = Icons.Default.Star,
-            label = "鍗曡瘝",
-            color = MaterialTheme.colorScheme.accent,
+            label = "单词",
+            color = MaterialTheme.colorScheme.tertiary,
             onClick = onWords
         )
         ActionCard(
             icon = Icons.Default.Star,
-            label = "缁熻",
+            label = "统计",
             color = MaterialTheme.colorScheme.error,
             onClick = onStatistics
         )
@@ -253,8 +256,8 @@ fun QuickActionsSection(
 }
 
 @Composable
-fun ActionCard(
-    icon: androidx.compose.material.icons.Icon,
+private fun RowScope.ActionCard(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
     label: String,
     color: Color,
     onClick: () -> Unit
@@ -300,7 +303,7 @@ fun ActionCard(
 }
 
 @Composable
-fun TodayGoalSection() {
+private fun TodayGoalSection() {
     Card(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(12.dp),
@@ -308,21 +311,21 @@ fun TodayGoalSection() {
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(
-                text = "浠婃棩鐩爣",
+                text = "今日目标",
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(bottom = 12.dp)
             )
-            GoalItem(text = "鍚姏缁冧範 1绡?, completed = true)
-            GoalItem(text = "闃呰缁冧範 1绡?, completed = false)
-            GoalItem(text = "澶嶄範鍗曡瘝 10涓?, completed = false)
+            GoalItem(text = "听力练习 1篇", completed = true)
+            GoalItem(text = "阅读练习 1篇", completed = false)
+            GoalItem(text = "复习单词 10个", completed = false)
         }
     }
     Spacer(modifier = Modifier.height(24.dp))
 }
 
 @Composable
-fun GoalItem(text: String, completed: Boolean) {
+private fun GoalItem(text: String, completed: Boolean) {
     Row(
         modifier = Modifier.fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically,
@@ -357,14 +360,14 @@ fun GoalItem(text: String, completed: Boolean) {
 }
 
 @Composable
-fun RecentLearningSection(
+private fun RecentLearningSection(
     audioList: List<Audio>,
     readingList: List<Reading>,
     onPlayAudio: (Audio) -> Unit,
     onOpenReading: (Reading) -> Unit
 ) {
     Text(
-        text = "鏈€杩戝涔?,
+        text = "最近学习",
         fontSize = 18.sp,
         fontWeight = FontWeight.Bold,
         modifier = Modifier.padding(bottom = 12.dp)
@@ -373,7 +376,7 @@ fun RecentLearningSection(
     audioList.forEach { audio ->
         RecentItem(
             title = audio.name,
-            subtitle = "涓婃瀛︿範锛?0鍒嗛挓鍓?,
+            subtitle = "上次学习：10分钟前",
             icon = Icons.Default.MusicNote,
             onClick = { onPlayAudio(audio) }
         )
@@ -381,8 +384,8 @@ fun RecentLearningSection(
 
     readingList.forEach { reading ->
         RecentItem(
-            title = reading.title ?: "鏈懡鍚嶆枃绔?,
-            subtitle = "闃呰杩涘害锛?{reading.progress}%",
+            title = reading.title ?: "未命名文章",
+            subtitle = "阅读进度：${reading.progress}%",
             icon = Icons.Default.Book,
             onClick = { onOpenReading(reading) }
         )
@@ -390,10 +393,10 @@ fun RecentLearningSection(
 }
 
 @Composable
-fun RecentItem(
+private fun RecentItem(
     title: String,
     subtitle: String,
-    icon: androidx.compose.material.icons.Icon,
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
     onClick: () -> Unit
 ) {
     Card(
@@ -425,7 +428,7 @@ fun RecentItem(
             }
             Spacer(modifier = Modifier.width(12.dp))
             Column(
-                modifier = Modifier.weight(1f)
+                modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
                     text = title,

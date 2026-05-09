@@ -14,6 +14,9 @@
 @rem limitations under the License.
 @rem
 
+@rem 设置 JDK 17 路径，确保 Gradle 使用正确的 JDK 版本
+set JAVA_HOME=C:\Program Files\Java\jdk-17.0.12
+
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
