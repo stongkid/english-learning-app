@@ -4,6 +4,7 @@ package com.bainex.englishlearning
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import dagger.hilt.android.AndroidEntryPoint
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
@@ -28,6 +29,7 @@ import com.bainex.englishlearning.ui.screens.StatisticsScreen
 import com.bainex.englishlearning.ui.screens.WordsScreen
 import com.bainex.englishlearning.ui.theme.EnglishLearningTheme
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
