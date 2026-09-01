@@ -263,8 +263,6 @@ If you have any questions, want to collaborate, or need help, feel free to reach
 
 Scan the QR code below to add me on WeChat:
 
-<img src="./app/src/main/assets/images/wechat.jpg" width="200" alt="WeChat QR Code" />
-
 ### Other Ways to Connect
 
 - **GitHub Issues**: [Open an Issue](https://github.com/stongkid/english-learning-app/issues)
